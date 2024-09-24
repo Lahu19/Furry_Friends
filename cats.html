@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furry Friends</title>
+  <meta name="title" content="Furry Friends">
+  <meta name="description" content="Furry friends selling pets online">
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <!-- preload images-->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body id="top">
+  <!-- #HEADER-->
+  <header class="header" data-header>
+    <div class="container">
+
+      <button class="nav-toggle-btn" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+
+      <a href="#" class="logo">Furry Friends</a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="shop.html" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="collection.html" class="navbar-link" data-nav-link>Collections</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="blog.html" class="navbar-link" data-nav-link>Blogs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="contact.html" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-label="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn user" aria-label="User">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn" aria-label="cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+  <main>
+    <article>
+
+      <!-- #HERO Section-->
+
+      <section class="section hero has-bg-image" id="home" aria-label="home"
+        style="height: 200px; width: 1800px; background-image: url('https://cdn.pixabay.com/photo/2017/08/07/18/57/dog-2606759_1280.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <span class="span">Our Collections</span> 
+          </h1>
+          <a href="#" class="btn">Shop Now</a>
+
+        </div>
+      </section>
+
+      <!--  #OFFE-->
+
+      <section class="section product" id="shop" aria-label="product">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Best</span> Seller Cats
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRnfdkeVZ9JofIVsToWj1RtzX58o-0w7r1trFDzw51u-qM8yTFZ9aTIWajIDkkiT26KBxRsSTjmzOAeLDY" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/2/25/Siam_lilacpoint.jpg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(3)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Siamese cat</a>
+                  </h3>
+
+                  <data class="card-price" value="15">5000Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcTGleQoEl3_6SCG-oVtK7Yc1apwbW_BdnFhIKjsAVMSurkjSQXFlC6K5e-9NBecBsnAKNUviL_MTraH5bE" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover default">
+                  <img src="https://carefreecat.co/wp-content/uploads/2021/04/british-shorthair-cats-characteristics-1-1536x1152.jpg" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">British Shorthair</a>
+                  </h3>
+
+                  <data class="card-price" value="45">4500Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/Gata_com%C3%BAn_negra.png" width="360" height="360" loading="lazy"
+                    alt="img" class="img-cover default">
+                  <img src="https://www.pumpkin.care/wp-content/uploads/2021/03/Bombay-Cat-Hero.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(1)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Bombay cat</a>
+                  </h3>
+
+                  <data class="card-price" value="45">4000Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://t3.gstatic.com/licensed-image?q=tbn:ANd9GcQ0suktJEBOYsgOoqYzT-aO4ZmHdxrxVkiyXSmiPmazPwoaHJQtL1sX-sXcPdMldK_m" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4QBPRXhpZgAASUkqAAgAAAABAA4BAgAtAAAAGgAAAAAAAABDbG9zZSB2aWV3IG9mIHN3ZWV0IHNub3ctd2hpdGUgcGVyc2lhbiBraXR0ZW7/7QB8UGhvdG9zaG9wIDMuMAA4QklNBAQAAAAAAGAcAlAADEx1Y2FEQWRkZXppbxwCeAAtQ2xvc2UgdmlldyBvZiBzd2VldCBzbm93LXdoaXRlIHBlcnNpYW4ga2l0dGVuHAJuABhHZXR0eSBJbWFnZXMvaVN0b2NrcGhvdG//4QS4aHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwAJPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4KCQk8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczpwaG90b3Nob3A9Imh0dHA6Ly9ucy5hZG9iZS5jb20vcGhvdG9zaG9wLzEuMC8iIHhtbG5zOklwdGM0eG1wQ29yZT0iaHR0cDovL2lwdGMub3JnL3N0ZC9JcHRjNHhtcENvcmUvMS4wL3htbG5zLyIgICB4bWxuczpHZXR0eUltYWdlc0dJRlQ9Imh0dHA6Ly94bXAuZ2V0dHlpbWFnZXMuY29tL2dpZnQvMS4wLyIgeG1sbnM6ZGM9Imh0dHA6Ly9wdXJsLm9yZy9kYy9lbGVtZW50cy8xLjEvIiB4bWxuczpwbHVzPSJodHRwOi8vbnMudXNlcGx1cy5vcmcvbGRmL3htcC8xLjAvIiAgeG1sbnM6aXB0Y0V4dD0iaHR0cDovL2lwdGMub3JnL3N0ZC9JcHRjNHhtcEV4dC8yMDA4LTAyLTI5LyIgeG1sbnM6eG1wUmlnaHRzPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvcmlnaHRzLyIgcGhvdG9zaG9wOkNyZWRpdD0iR2V0dHkgSW1hZ2VzL2lTdG9ja3Bob3RvIiBHZXR0eUltYWdlc0dJRlQ6QXNzZXRJRD0iMTIxOTA0NTA3MCIgeG1wUmlnaHRzOldlYlN0YXRlbWVudD0iaHR0cHM6Ly93d3cuZ2V0dHlpbWFnZXMuY29tL2V1bGE/dXRtX21lZGl1bT1vcmdhbmljJmFtcDt1dG1fc291cmNlPWdvb2dsZSZhbXA7dXRtX2NhbXBhaWduPWlwdGN1cmwiID4KPGRjOmNyZWF0b3I+PHJkZjpTZXE+PHJkZjpsaT5MdWNhREFkZGV6aW88L3JkZjpsaT48L3JkZjpTZXE+PC9kYzpjcmVhdG9yPjxkYzpkZXNjcmlwdGlvbj48cmRmOkFsdD48cmRmOmxpIHhtbDpsYW5nPSJ4LWRlZmF1bHQiPkNsb3NlIHZpZXcgb2Ygc3dlZXQgc25vdy13aGl0ZSBwZXJzaWFuIGtpdHRlbjwvcmRmOmxpPjwvcmRmOkFsdD48L2RjOmRlc2NyaXB0aW9uPgo8cGx1czpMaWNlbnNvcj48cmRmOlNlcT48cmRmOmxpIHJkZjpwYXJzZVR5cGU9J1Jlc291cmNlJz48cGx1czpMaWNlbnNvclVSTD5odHRwczovL3d3dy5nZXR0eWltYWdlcy5jb20vZGV0YWlsLzEyMTkwNDUwNzA/dXRtX21lZGl1bT1vcmdhbmljJmFtcDt1dG1fc291cmNlPWdvb2dsZSZhbXA7dXRtX2NhbXBhaWduPWlwdGN1cmw8L3BsdXM6TGljZW5zb3JVUkw+PC9yZGY6bGk+PC9yZGY6U2VxPjwvcGx1czpMaWNlbnNvcj4KCQk8L3JkZjpEZXNjcmlwdGlvbj4KCTwvcmRmOlJERj4K/9sAhAAJBgcIBwYJCAcICgoJCw0WDw0MDA0bFBUQFiAdIiIgHR8fJCg0LCQmMScfHy09LTE1Nzo6OiMrP0Q/OEM0OTo3AQoKCg0MDRoPDxo3JR8lNzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzf/wAARCAE+AT4DASIAAhEBAxEB/8QAGwAAAgMBAQEAAAAAAAAAAAAAAQIAAwUEBgf/xAA9EAACAQIEAwUGBAQGAgMAAAAAAQIDEQQSITEFQVETImFxkQYUMlKBoRVCYrEjwfDxM0OCktHhJNIWU3L/xAAZAQADAQEBAAAAAAAAAAAAAAAAAQIDBAX/xAAjEQEBAAIDAQACAwEBAQAAAAAAAQIRAxIhMRNRBCJBMmEU/9oADAMBAAIRAxEAPwDysYotjFCodHO6IZRQ2UCGBQIdMQKYGtRYilMsTA1iCKmFARo2zK+xrwayJrYxztwVS8XB8hxOTsuEVDFJEiIQAI0QBiAcmK+IlLYmL3JS2RN+qx+LlsWRK1sPEojhAggBCKEZCQhBhVH4z0/sY7Y5/Q8wv8Q9J7ISy8Qf0HE5/Hvqv+HLyK8J/gIeq/4cvIowNRdllbV0UydRAZormgZ4fMgBiEWuxNtwCEEdWmt6kF/qFliaEfirU15yQBaZ/G4ueFgl/wDYv2ZbPimBprvYul/uM/F+0PD0lGFaMtdxfSvr4GmOmLEYwdJ0OhIsZMFQbEQUwiNEx4sQZAFsWOilMdMYWFuGllqrxKEy2k+8gFaqChU9AplszBAEAKGiKMtwDkxe5KWwMX8QaWwr9OfFyHgIth4DI5CBA0CgDDJAgCMlD0qfU7sBi54SsqkDOrXUrrqNGUugC+vV1PaerKmoZXbzOZcfrR+BW+p5+8wpSK2nrG7L2gxb/MkVvjWMl/m2+hkKMhlF9RlqNVcXxttMRNeTEqcSxM/ixFR/6jgjF9QuA0L5Yqo96k3/AKiidZveTfmwOAjgBpKqip1R3BCuCBTxaLIq4iRajmbQVENiIZAoEEhBASEIAMmMisZN8gC1FtJ2kmct5DRlPqxlWzSqJxLVyKcBhalTK0nubE+F1aUZSUVLRZVY061l3jgS68mMldNmpPh/aU9FlnGDbiuon4dOMXmh8V7W6ch9R3jPiszshkrP/o0qfD6sqihRioprVtXuLjsOqNSNLL3uqWqQdR2YeLXfQ9JaIGPWRp8r7jUGmlYm/VS+LcoYjAW4AQgCMIEgQCBAEYVySciyy6CvcZAQ2RCBGECgEQyp0FioJSKArGFYArEY7EEbxsUWJFalZDqZzNzNAuBzEvqMLBgU1mdlvyOjD0HXk401eSV7dQG1KIaUeGVk+/SnltfPldrHfT4LVlVeF7JxruGaNlfMudn1HMbU3ORhRpN2eyOyOArWuqU3Z2dkevwfs5LEUctbDpuUE5NPn18j0OB9mowpxhOU7KKW/JFzBF5HzyjwutUgmqMmnLL3Vqn4o3cL7D4ipDNVkqctLLdWPo2F4fQw+qpxzc3bc6ZOEd7FzGRFytec4T7PQwcFFpNrmaEeE07ttLXW3Q7nVW3QZVFcaWV+CxhJuOzVvoWvhMMltL30dtjRz3CpIA46XD6VPvKN5ZbXZnY7gnvE24x3W6djfTVwoA+c8U9m6kpPPTlJJbqexj1eGTw+bKpRjHZSPrOJwsK8bTX/AGZuL4PGpQcUk5Pd+ArJTlsfLJVpKWXK7+R00Kc5xz2dmrns6/s05zzQgotbSsc9fgtVWhGSvHXXS4piru8vOnKCTe3VMQ1sZw+dJJ4i1CHOybuZ1Wmoaxqwmn0v/NCsVLtWggQRKEhCDIstyxCS3GWwASECMkIQgAyCKglJBisLAwBWKxmKxG8U3oRMjWhEjnb6NclPWaXiDkSGkk+gCxuYThTrUpTim7R+B/1tpdeB6Ph/DKE5UsS6dSnNWeZfs/FXfqcnsji415JZMzhul8cP/aP9dT28PdcOu0bXe+/mb46145srd+l4ZwuVJLPapHlJL7f3NuOBw1oyyRUo2cbrVMzafFqce7C0bdCVOJymtGn9SktiLoU5aJK/TkWOpGOqeh51Yhzv3tP2Lfenl+LzQBr1sXaOjOWWJctzMnim3qV+8aWuAanb67jrEGSsRfRjKuAavvFkNHE+JjuuWUq2oBtUq93udPaKMLoyqVRWRfUq921wDrWKhGLc2clbi9ODskcGIquStHRI5HHqBxr0+MRm7ZS/EKFeg6iWtuRjUaOaWibN2FP/AMTK1yAV4bjCTzKtU7nKMdfuYclFPuyuvKxp+0MbY6UFey+7MonJePwQoUJKjEQAoYCW4yFkMtgAhAQZCQAQJAgIMkAwigAYoWKBvFRYwkUWxRzOgtiWLLC2AO7glWVDHwqUnKNRbZXZvwXj++x7DHY2tUoKca7UrfLa/wDweEo92oj1ixssRhKSrpSlG3fTvnW3r/wa4X+rLOf2lUwxdeTvKT08f2O+hi6qV25eKM5RcKrdP4Xut0aeGlZbGU3v63yk18aGHxktM7s+vU61ib8zOUo2tlSDF22Npa5rjK7+2vzJ2px5wdoGy6u5VPEZVHfUz+0HVZ7PYNjq71ULqVXUzVVLKdUqVNxbEa1tmM67sZsKviWqdx7LToc2xqacmkUx1OzDR1uA26sPF9ooxv4s1a1SNKg5TlaKWrZyYaLte2hz8WlOpScHKMI9ZPcZPHcerQqYibp5Wm/yyX3sY9zS4lh3BtuNPT80La/czCK0x+CggCJQhQoUMkmRSVtwTAoXW4A2ddQ5kL2fiMojJM6B2i6BcETs0ATtPADqeAyhEmVdBkR1H0F7V9C1xXQXKuiAKnUkI6ki9pdEBpdAN4xIsiKkMjndAsiRB1FvZAEpU1UllvZnouH0JTg6U6crbqb0cjm9n+HrE1P4q7r5NHpngqmHjkgkkvhurmuOPjDPP3UY86LoSaeqXJ7ovpTSWwuJjPtWqm6BFGdmq3l3HSplkZnMtB4yDadOjOLn1K3LQ53WyVEnswtExd2bQGbUrUk0FaMWxpcpBVW0rFM5qMDlpVXKs9R7HVs06h0U53M+nOx1UXsy5WdjTos0cPbS5lUJHbRmaRlW7hZrY6KtNVI96MZf/pXM7Byu1qakX3Rk85xTA4aV1klTnZ27ul/NWZ4bF01TxFSN3dPZ30PpnFOxVFqpTun0f8keC4y8POq3DtE+ssyXo1/MVVjfWUEASGghQoUMkkGOwJEjsAMQhBkJAEAjEAQAjAyAYAGKwsVgbyaQUg2DYwdCQi5SUVuzb4NwydSrarFrzRl4WlKVWLino7n0nhuHhUw9KpbWyNcJ/rHky/xVw7hkMNTdtFvqWYmvTSywVSWm0djYUYwjqlYxeKYlXcYpteMdDRixcTGDqXjBxK0iyrq7sETGujH4RkTsWNI5q8nCLZFaQ8qhzVZxlpmSZ5njHGsb21ShgslFUv8AEqTV7aX0MBcV4jleIWPniKcX3qbtG6W9rWDplT74TyvptCcuzV9Wi1Tk3a1n4nleA8TqTqTpVJRqUY088aj3aexsU/e6s3KWSnF/Dmd36E3cV1alRKUNea3WxkYrjGAwDl21eMcvxN7I66fvdKEli4xnTatmpq2TxseB4lTeHxmHo4uDko1qrbb0nKyyu/lcMZ2ujuscdvZYb2p4VVmo+92b5zpTivVo9Dg8XSnlyVIzjJXTjJNNdT42sTifxVdmv4Ls0mtEravzue89jqc6mGq17KMZ1XKKS05J2+qbL69flZTLvvx7ulNp2Z20ahkYed4qMnqtmd1KVjWVz5Rt4Wqk1qzXo1U0jztCV7bo2cC9C0OvEUY16UoT+FrW6TXoz5/x/hkKGIk8Pu/yppJ+R9Efwu+x4v2iUqcqjo1rq2sHLT/awOPI7aNNeYRdbhM2pkEUKGSSDHYWWxI7ADkuAgENyXAQYG5LgIBC2KyAYGjFYWKwDx/vkOpPfIHne0n1L8GqlSqkrs5JybrquL3vsplxFd39D6NgYRp01FbHgPZKjKnZSi0r+h7qjUslqdmPxx5fXXiGsp5ziEJObacrGxWxCSdjgqyU1sgpRkcgHTWp8znehlY3xuw0EqQTWoyYzd0SuPA+2PA8XOrUr4SnKpTqLvqD1T6mLwngfEqtB4anh5Qc281SqrJX303Pqbpt76Fd6cNIay6t7B3utC4427ZXCuDUeG4anTpqU504pOb3lYP4tCWInTlCSyrutpq/XXY0nKUFy8ZSdl6GFx2pQlQcr2kk7SWhnfW/HrfruwfFp4qtOhTw1RwjJxdTZLrv/I7MdwrCcSoKhjKUaltY3eqf8jN4JiKccPFQ0T5738zcpSjOysnfW6f8hzwuS++PP0/YzBQqJ1JYmcU75JSbR6PDUVShGlRgqcIqyT0C6lSGt7x2Oim3K1yt7rK2yL6MHHod1Hlc5Keh2UNWjXFz5NTCqLtdGvhY7WMzAwcmkblCkoI0Znn8DW+mx8/9pbqcrxk1fSUpbPyPeYlvs7JJ+Z4j2mVRw1ptNPXpIBHmAgIZtRuFMUKAC9iJgbAmAWXIJcNxkYgt11JcAa4Lgv4guhg1wXFzIDkgAti3A5IDkhG+YUUp1FFu19j1nAOFqVSM2rSWq6M83hMFUxEk6avqfQuAUJRw8FNOMo73MODHd2358tTUb2DoRpxUoqz5mgqtkcNOVkkPnudNrk0ulUbFzaFdxWxbVIWrLU55F09SlkVpiSUdCtykt2XMqkZ1pFdTNK2tkDRR00j1X8h3G+rFkvX9iKuObETSg21ZJbvcxKmGljZupO+SL7sTaq0pVU0+Y1GgoJqxO2kumZQwUsPNShfK94m3R1jFPyFjTva/1OilT1HtOV2uo6xcJ+RbSTg8vIMKeuh1woN6msjDLJKOvI0sLSvZ7nNTo66Gjg42extjGGV21cBStZs1FsceEWh1p6FJF2aszI4th6EqTckn5GpO7Whk8ThLs33oJW1bV2AfPOIU40sRNRU4q+ikv2OY6eJzvi5Ru2lsnG1jkuRfrSfDBEuG4jM2Jq9gtgTAFyyCoyHuS4yKosOVhuS4ALMmUlwXAJYDQbgbAFa8QWC2C4G8b7O1JUpxUl3Wz6BhJJ0o5TyHAY0skYuF/M9dhVFRVnoZcd8a8s3XXFssjIr0Ci2eluYlyu4bgWkkJJXDJiXBURrQS3UsuK7E1UVsVpDtaaFcldkWLlRJBUbipMeLd9ELR7PGBdCGoiY9OTu29hyJtddKOx3U7I4qck7F6qK/kbYsMmjSSbOyjBXTRnUamiO6jO6Roza9GaUEXxmZtKWljrpO9uQB0K7M3iuIlSozloopa3SsaqWmjMrizlCDlFNvwWoB874hiliK08yytN2tszjud3FMRUlXkk5uN92rLyOC5FaY/BuS4oRGN9AJkb0Fi9QCy5LiguMj3JcS5LgDXJcW4LgDNgbBcFwMbguC4LiN5Xh1aq2ow9D1nC4VcqzN/U8twnJSmtbybPbYJ/w1ocnDfHVyx1rRBBcB0uajclxWwNgDOQrBcgGl2ByGsI0Kml2wS8wkjrLUmqiS7sLkhJMM3oIstKDlNiNdGcW7Jq4zTvbkUwpSy5r2ly8C+jK672/QcKr4N2WUthJ5kypSUI3fPRD03s1tYuVnY7qT1O6g3yZm0pK+52UZWasaSsso1cPPkzvpcramdh2pJXNbC04WvuykrqexwcXeHlSlGq436XszUtoeX9q5Qp07zc10lDkAeN4wnTxEoxqKaXXVmadeKyynpr0fNeBytEX60x+BclwAuIzPYri+8M3oVJ94AuuS4iZLgR7guLclxgxLi3BcAa5GxbguBmuAW4LgHneG5ViI36ntsJJOmrHzyjXcKiZ7jhFTNh4tnBwfp3cvrTuC4qYbo63INwXFbBewGa5Eyu+pFIAtzEZU5pA7S+wjWN2BBq5W0yRuthGtbumV1bSy36hzC3u7v8pNU7naNK/RFNO+fN4DRlmjZ8yU/ifRDIcVKScct7NWaLoVbZYfmscFfENSlNpuMbKKXUmDq9rUzPR7bhL6VnjXorVNbGjQb0M2lfLpud+GbdjbFhk1cLLVaGzhnorXX0MnCOWmxsYe9lexozdE6kYQvN2t1PJe0eIhiW5UWnbSUXqmem4jRdXCTyNqSXqfL+PyxWDqSnC8lfVx5ILdCekq07ybypeRzzpmTU4zV+WRzz4zUt8MvQx74/tt0y/TXnAraZjR4xU5qSKavGKl9Iy9A74/sdcv03ZSUU2ymnVjOdkzz9XidapFpKRzUMdXpTcpJsO8HWvXXJc8z+L1vlkR8XrW2kPtC1XpbkueX/GK3yyA+MVvlkHaDVeouS55ZcXrv8shnxXEfLIO0LVemzAzHmfxXEfJIi4pX+SQ9w9V6a4Lnm1xWst4SA+K1vlkHaByqKTR6j2fxHcytnm1A1uEy7GSbZ5fDl/Z6OePj1sXca5y0KqqJWOqKPRjioisLQknoAJKQrkFiNaiUZd7cugkloUeRYmAWOwubkhdxoRSeojPGGl2UTqwi5Qvd9BqtVtdw54UU5ZnuyaqO2hNZU2yOo9bbHHTzqTT0O2jQcogVU1aeZW5LkTBw7Obb0Rflte+6OaupSqRVN2Hovraw9RSd1vH7o78O1e8TGwl4OOreljXw/I1xrDONfCVNkzXoXsmYmG1toa+Gi8u9jVkTjPEJYLBznHLe20pWPnmP9opYhSVTC0m/wBS1PRe0GKfbSg25JP8stUeGx9SVSs77rfu2MOfO4TxvwcczvrgrJSm2o5U3t0KZUvA6mmK4u5w9nf1ccqF+RVLDLoaPZg7JsXYurN938BJYfwNXsRXh7ldi6srsF0J2C6Gp7sH3ZdBdx1ZPu66B92j8qNX3ZdA+7LoPsXVmU8NG/wo6o4WDXwo640EnsXRppcg7C4uH3Onb4UMsFB/lR3ZVbYaNlyH3LozauCgl8JUsEvlNidnyFSXQO46vM9my/DJQldj5BowPPxzsrruLb4ZUutDVjLQ87hKrptK9kbmGtOKd7nqcPJ2ji5cNer73Ys0WKKQJK5uwUOIrRa7IrlJCUkQorU9ddi6naWq2Ai3dyJX8v3HnEWO+oHs2RWSBJKLQ8XeXghaiu15i0rYqKbO3DaLocdPSWpo4eGl7XHIjJRWW6ivqUU4d67O6o04uy1OSXdHoSr6Fm1Y1MMtjJw2kkbOGaTReDPNp4SF2jXy5MPJpX0OHBRUrHRxWt2OAn3b6dTVi+f8bnnxFTM9nos1mYkld9frc0+JuEmm13n9jMalyPM58t5PT4cdYlyByIPeBaRg1TIiZQ2kTLK4BMoMg2VkysAXKHIHKw5WMi5EHIg5WTI+oAMqJlQcniTIMi5UHKg5CZQAaAshsoMoBkLIPHL0KIzSLYO7OTrp0bWxy32NnhzvDbQyoRW5q8Ou9OR1/wAb/pjzfGilcSpFxR0RSSEqWO/bi04qqcdTjqzyt9DTksysY+LtTclLRk2qkVuvra52YSutI3MWco3vmO7CyUZRb16j2XVvxiqkDnnFwlZoNLERVSEYtamvicLGdBOKWa1y5Not6siLHSuVtOMmmXQ1I200Kid2Eebu8zkLsPK00OX1OWPi2p2kaji46HPWjZmvUpynRU0r2MzEKz1Ks0jG7LRNTCy5GVRdmaWGs2h40s43+GvvKxdx5qeF7JTyyYnB43kri+0FK1S7WjXQ1vxjPrxGOwbjN3i/PkcfurN+tSbvld10ZT2D6I8fl/68ephf6+sf3TzCsG+hsKg+iHVB9ERJVXJjLB+BPc30NpUH4B7B+BXWl3YywT6B9y8DaVDyCqHkVME3Nie4voT3HwN3sPIKoIqcdT+Rg+4voT3B9Df7BE7BFfjpfkYPuD6A9wZ6DsETsEP8dL8jz/4eyfh7PQdgidgh/jL8jz/4ewfh7PRdggdhEr8RflfKb22GjUtzKGwXZw6du3dDENG5weq5QcpPQ8umd9PikMPhsrUrrwN+LUqM/Y9XVxUKULt2KMNiliKTnm/M1Y81j+P4Z4OLi25dLGfhuPxpxm4Rllk75bPRnT2ZdY9vUrKEU3Lu3tfoZvHqLq4btKTtOPMxf/kkKlFp0akm+Vir8WxdZZFFQp+O4rnIXSsvtcdSrPPaUTphjsfKfdcYx6Fs056toanC27Rhly5T41nHHRh3i6lSM54izT5HssLjakqcO0qXsuR5Ki0mu+jYwtaNku0iLHly/Z5ceP6a1W053QYRkc1Oqrp3L44qCqKHOx1Y+xz3yrsrDBtSQka8JPfUqdXvvwdh/C+vT8PlmoyTWZW2MbGSWdo6+B4uMpulJ/Foc3FqDw9bXZvQ2yu8ZWGM1nY56d7mngb5lcy6U1F3O2jX2cScVck8ex4XkjZ3RoYzCUsbTtO6a2aPKYTHTUVmaubmF4lGVFNvZ2N/rm+MXiXDJ4OpZtSi9mcSp2PR8cqRqQSVnoedbd9vued/I48cMvHbw53LH0MgchE5X+H7hvPlFephNNqmVdQqKBlqPoFU6r/NH7mkiKZRQyihVCa3cQKMlq5L0NIircqGyortr8S9CWa3qJfQ0iKsUUSyBePOrFfQKUXtVT9C9JGyCooXKlvUCo31zyHIWzWQcqFUP1TGVP8AVP1K0i1GlcmVeBOzXWXqTIv1P6laLb4vYhOzl4k7N+J472ESd9wuMZRW9+dyKk+dx1TduY/Cc06KtsKqPgdfZ+AOyfQPDUKCS5EulyRd2T6Cul1RNsGiKaXS48ayXK4rpeAFF3+Fi2enRTrpO+U6oYxpbI4oRb/Ky6MWVLCsrqlxVQyqbyu+j5BxnGcNSUK6rwjOLutb38LHDWoZ97ehU8DGe8fsbTn0zvFtqP2hwVH/AMiNZOFT4oJ3s+qBW9ocHUgnTxCT8FqZ8OGRf+Wjro8Ki+SX0D/6Z+h+GujAe0b97iqdOpJX+JI9DxHj0alKPaRa53Zj4PhcIyTTOyrwunVfflJlz+TrFF4JctqKHG8NUm12qVlfXQs/HaCqWhWg0o33LKXAsGn3os7aHAMBdfwE2upM/lf+HeGftVQ9o8JCMJOsnK6TUXezN3A8ahiFTpUaVWUXLNKag7N/UqwfBsDSaccPG/ijYo0YQjaMLI2w5+TL5HPycXHPq7GVXVd1omjhs72sd0/h2Oezv8K+rFzS5XY4rqaVpPTQbIyxJ/0yaGUxXclfZfqGVNfMOt9rfQaxrMUXJUqMXzG7GJakkFJczTHFFyVxpRtomHsY9NC1KP8ATHST5fc0mKLkpVGC3iWKEF+Veg6jHxGUUi5ii5K8q5JDZUttCy0X0CoQ8NPArSdq1FBSXUdKK2/YZNPk/wDax6LarKmBKKZbNvI+zjeXK6HWmmVr6DJ8Oadtl6hSfgW2j0IlHoeFHuKkpdUhsr6otyxvsxlFfKPY0os/mXoC0uUl6HVl0+EOV9BbPTjyvq/QnZvxO5QvvGJFSfJIi09OHsm+o0cO/H1NGNFvoi2NF9dfBEbPTPjhnpozohhdu79zujR6t/7SyNF/0g7DTiWES/Ki+ng0tcsTrjQdvi9EWxw7vzfkFoUU8Ir/AAx9Dop4a3RfQujR0/N6oshR1Vrv6oWy2lGg47ZToVINOnJf3LVSbW78rl/4z36WFPa0jqpx/UyuFL+rnRSpa/8AZeETlV1OHizphCy1ZVCCRclrpf1O/j8cedSS03K1Bc2y1x6/uK4L+mXl6mXRcqX9yKEGN2af9x8qW1iZD2r7OPJv1GUIjqKvyCoouRNpFCF/+xlCH9MZKIVGL/sXIm1FGPgPGMOiArL+w6UdP+C4ioox6IdZE9bAvFc/uN3dLtlxFMsnJIPdjuCMoW1Y2aHKT9SkjFq2j0C3HcXNBO12/NjqzW79QAJrkhlK2lvsBOKerf1YJKnJ3y/cYfELPoMoyfIsiiyKPBe6rVN9B1Sk9rF8EWxyrkBqI0G9dCxYd+DOhNPkWxt0Jo25lh5Dxw810R0JrxHTvuTT3XMsPLwHjh5X8Dq06FkWktibiOznjh5W3RZDDSt8X2OiKTQ8ZJflFot1SsNP5vsWRw8vm+xb2i+UZVU/yhot1XGg1+Ysjh5XvnZZGafIeMvAchW0I0H87LFRb/zJDwkrFsZraxrMNs7kSFF/PIvhR/VL1DGRdFm2GDLLKpGgn+aXqXqjG2t/UWMixSOvDGOfLKh2UfH1B2S8fUszAzGnWI3S9lH9XqDIv1epZdkuLrD3SKmv1eoypx6P1GUgq5UkTbSqlD5RlSj0+4b2CmVIm2gqMPlHVKHyBTGuy5Im2gqMPkQ6pR+VE1GTZWk7FUofIgqlD5I+gUMhkHZx+SPoFU48oR9A2GV7WuMgVKHyInZxT+Beg1n1BaXUZv/Z" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Persian cat</a>
+                  </h3>
+
+                  <data class="card-price" value="49">4900Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Maine_Coon_cat_by_Tomitheos.JPG" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="https://www.lacucciatoelettatura.it/wp-content/uploads/2017/12/Maine-Coon.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Maine Coon
+                    </a>
+                  </h3>
+
+                  <data class="card-price" value="85">8500Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcQJpzfZ2tatDT3b691kMdYWPHmh32yMOVvYUcWliSJv38Psd3laoJeta7ZeVogFNt3XmFGSbIEy0Vzmqm4" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover default">
+                  <img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcRdNBh3R9egf1ljUDmEArkqfZYE5jaPB4TmW-zTl5pFTv50Olqm1dR8K70C8aa6qBlI" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Ragdoll</a>
+                  </h3>
+
+                  <data class="card-price" value="85">7500Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://justfunfacts.com/wp-content/uploads/2020/07/american-bobtail.jpg" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover default">
+                  <img src="https://media.istockphoto.com/id/1251230413/photo/american-bobtail-cat-on-grass.jpg?s=612x612&w=0&k=20&c=9xWO3dp8E4XpvnS3SPUmEa4cIJFhnSb7cz2XgAJBayQ=" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">American Bobtail</a>
+                  </h3>
+
+                  <data class="card-price" value="85">5500Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="https://images.squarespace-cdn.com/content/v1/54822a56e4b0b30bd821480c/1590518579129-RN0JSEV89CHR31JG3M0V/sphynx.jpg" width="360" height="360" loading="lazy"
+                    alt="Etiam commodo leo sed" class="img-cover default">
+                  <img src="https://hips.hearstapps.com/hmg-prod/images/hairless-cat-breeds-1567008459.jpg?resize=1200:*" width="360" height="360" loading="lazy"
+                    alt="Etiam commodo leo sed" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-label="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Sphynx cat</a>
+                  </h3>
+
+                  <data class="card-price" value="55">5500Rs</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+    </article>
+  </main>
+  <!-- #FOOTER-->
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+    <div class="footer-top section">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo">Kitter</a>
+          <p class="footer-text">
+            If you have any question, please contact us at <a href="mailto:furryfrinends777@gmail.com"
+              class="link">furryfrinends777@gmail.com</a>
+          </p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+              <address class="address">
+                Near DYPCET Kolhapur.
+              </address>
+            </li>
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+              <a href="tel:+917972539797" class="contact-link">(+91) 7972539797</a>
+            </li>
+          </ul>
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Corporate</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Careers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQs</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Vendors</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Affiliate Program</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Online Store</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Service</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Track Order</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Grooming</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Positive Dog Training</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Veterinary Services</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Petco Insurance</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Pet Adoption</a>
+          </li>
+          <li>
+            <a href="#" class="footer-link">Resource Center</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2024 Made with ♥ by <a href="#" class="copyright-link">Group 1 of TYC</a>
+        </p>
+
+        <img src="./assets/images/payment.png" width="397" height="32" loading="lazy" alt="payment method" class="img">
+
+      </div>
+    </div>
+
+  </footer>
+  <!-- #BACK TO TOP-->
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+  <!-- custom js link-->
+  <script src="./assets/js/script.js" defer></script>
+  <!-- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
